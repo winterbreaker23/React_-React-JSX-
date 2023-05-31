@@ -26,7 +26,10 @@ const myelement5=(
     <p>I am an engineer too</p>
   </>
 );
-root.render(myelement5);
+const myelment6=(
+  <input type="text"/>
+);
+root.render(myelment6);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
