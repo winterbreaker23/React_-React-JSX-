@@ -30,13 +30,16 @@ const myelment6=(
   <input type="text"/>
 );
 const myElement7 = <h1 className="myclass">Hello World</h1>;
+
 const x=5;
 let text = "Goodbye";
 if(x<10){
   text="hello";
 }
 const myelement8=<h1>{text}</h1>
-root.render(myelement8);
+
+const myelement9=<h1>{(x)<10?"Goodbye":"hello"}</h1>
+root.render(myelement9);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
