@@ -29,7 +29,8 @@ const myelement5=(
 const myelment6=(
   <input type="text"/>
 );
-root.render(myelment6);
+const myElement7 = <h1 className="myclass">Hello World</h1>;
+root.render(myElement7);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
